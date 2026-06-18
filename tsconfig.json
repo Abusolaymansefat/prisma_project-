@@ -2,9 +2,19 @@
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "target": "ES2023",
+    "target": "esnext",
     "strict": true,
     "esModuleInterop": true,
-    "ignoreDeprecations": "6.0"
-  }
+    "ignoreDeprecations": "6.0",
+    "types": [
+      "node"
+    ],
+    "outDir": "dist",
+    "rootDir": "./",
+    // "forceConsistentCasingInFileNames": true
+  },
+
+  // "include": ["src"],
+  // "exclude": ["prisma.config.ts"]
+
 }
